@@ -1,5 +1,8 @@
+import com.itarators.ForLoop
+import com.person.ControlStatment
 import com.person.Person
 import com.person.Person2
+import com.person.Range
 
 fun main(args: Array<String>){
 
@@ -42,6 +45,27 @@ fun main(args: Array<String>){
     Person2Object.DIsplay2()
 
 
+    // Tutorial 16
+
+    var rect = Rectangle()
+    rect.lenth = 10
+    rect.breadht = 20
+
+    println("lenth of rectange is ${rect.lenth} and breadht is ${rect.breadht} . The area is ${rect.lenth * rect.breadht}." )
+
+    //call for Range file
+    var RangeObject = Range()
+    RangeObject.OutPut()
+
+    // call ControlStatment class
+    var Controll = ControlStatment()
+    Controll.Control()
+
+    //call to ForLoop
+
+    var itarators = ForLoop()
+    itarators.Loop()
+
 }
 
 class myClass(){
@@ -52,5 +76,11 @@ class myClass(){
 }
 fun Display(myString: String){
         println(myString)
+}
+// tutorial 16
+
+class Rectangle{
+    var lenth:Int = 0
+    var breadht:Int = 0
 }
 
