@@ -1,4 +1,4 @@
-import com.itarators.ForLoop
+import com.itarators.*
 import com.person.ControlStatment
 import com.person.Person
 import com.person.Person2
@@ -62,10 +62,29 @@ fun main(args: Array<String>){
     Controll.Control()
 
     //call to ForLoop
-
+    println("for loop")
     var itarators = ForLoop()
     itarators.Loop()
 
+    println("print While loop")
+    var intoractor2 = Whileloop()
+    intoractor2.loop2()
+
+    println("print do while loop")
+    var itarator3 = dowhileloop()
+    itarator3.loop3()
+
+    println("loop braking")
+    var brakers1 = loobBrake()
+    brakers1.brakest()
+
+    println("loop braking next")
+    var brakers2 = loopbraker2()
+    brakers2.breakst2()
+
+    println("continue statment")
+    var brakers3 = contniuebrake()
+    brakers3.con1()
 }
 
 class myClass(){
